@@ -1,0 +1,13 @@
+- project:
+    check:
+      jobs:
+        - linters
+    gate:
+      jobs:
+        - linters
+    post:
+      jobs:
+        - linters
+    release:
+      jobs:
+        - linters
